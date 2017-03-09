@@ -1,5 +1,5 @@
 import React from 'react';
-import PlanetList from './PlanetList.jsx';
+import PlanetList from '../components/PlanetList.jsx';
 
 class Planets extends React.Component{
   constructor() {

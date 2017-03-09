@@ -3,9 +3,9 @@ import {Router, Route, IndexRoute, hashHistory} from 'react-router';
 import {render} from 'react-dom';
 import Main from './components/Main.jsx';
 import Home from './components/Home.jsx';
-import Planets from './components/Planets.jsx';
-import People from './components/People.jsx';
-import Ships from './components/Ships.jsx';
+import Planets from './containers/Planets.jsx';
+import People from './containers/People.jsx';
+import Ships from './containers/Ships.jsx';
 
 window.onload = () => {
   render(
